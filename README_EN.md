@@ -102,7 +102,7 @@ Current module version: **AM095Q120240XZ**. Electrical and mechanical details fo
 - Technical support / product inquiry: <luyu@osptek.com>
 - QQ group (China): **985881096**
 - Website: <https://osptek.com/>
-- For questions or problems, you can also open a GitHub [Issue](https://github.com/osptek/0.95-amoled-120x240-spi-sh8501/issues)
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
