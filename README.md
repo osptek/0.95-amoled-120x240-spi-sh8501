@@ -46,6 +46,8 @@
 
 <p align="center"><img alt="AM095Q120240XZ" src="./images/AM095Q120240XZ.png" width="320" /></p>
 
+**说明：** 单屏。
+
 ---
 
 ## 如何切换分支
