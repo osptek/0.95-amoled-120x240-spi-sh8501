@@ -5,4 +5,4 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(s3-idf_sh8501-spi_lvgl-v9)
+project(esp32s3-0.95-amoled-120x240-spi-sh850-bringup)

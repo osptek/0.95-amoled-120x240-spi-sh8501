@@ -1,0 +1,44 @@
+120X240 AMOLED+SH8501A SPI4//
+// 2026.05.10 Gamma 2.2 //  
+
+WriteComm(0x11);
+Delay(60);
+
+//WriteComm(0xC0);WriteData(0x5A);WriteData(0x5A); //Bist测试指令
+//WriteComm(0xBA);WriteData(0x81); 
+//WriteComm(0xC1);WriteData(0x5A);WriteData(0x5A);
+
+WriteComm(0x2A);WriteData(0x00);WriteData(0x00);WriteData(0x00);WriteData(0x77);
+WriteComm(0x2B);WriteData(0x00);WriteData(0x00);WriteData(0x00);WriteData(0xEF);
+WriteComm(0x44);WriteData(0x01);WriteData(0x27);
+WriteComm(0x35);WriteData(0x00);
+WriteComm(0x3A);WriteData(0x55);
+WriteComm(0x51);WriteData(0xff);
+Delay(60);
+WriteComm(0x29);
+Delay(120);
+WriteComm(0x39);  
+
+WriteComm(0x2c);
+
+
+
+
+void DM_block_write(unsigned int Xstart,unsigned int Xend,unsigned int Ystart,unsigned int Yend)
+{	
+	WriteComm(0x2a);   
+	WriteData(Xstart>>8);
+	WriteData(Xstart&0xff);
+	WriteData(Xend>>8);
+	WriteData(Xend&0xff);
+
+	WriteComm(0x2b);   
+	WriteData(Ystart>>8);
+	WriteData(Ystart&0xff);
+	WriteData(Yend>>8);
+	WriteData(Yend&0xff);
+
+	WriteComm(0x2c);
+	WriteComm(0x2c);
+	
+}

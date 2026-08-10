@@ -51,7 +51,7 @@ Current module version: **AM095Q120240XZ**. Electrical and mechanical details fo
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · SH8501 SPI + LVGL9 | [`examples/s3-idf_sh8501-spi_lvgl-v9/`](./examples/s3-idf_sh8501-spi_lvgl-v9/) |
+| ESP32-S3 · SH8501 SPI bring-up (LVGL9) | [`examples/esp32s3-0.95-amoled-120x240-spi-sh8501-bringup/`](./examples/esp32s3-0.95-amoled-120x240-spi-sh8501-bringup/) |
 
 ## Repository layout
 
@@ -75,11 +75,13 @@ Current module version: **AM095Q120240XZ**. Electrical and mechanical details fo
 | Product datasheet (AM095Q120240XZ) | [`docs/AM_095_Q120240_XZ_d0c3fdd1ce.pdf`](./docs/AM_095_Q120240_XZ_d0c3fdd1ce.pdf) |
 | Driver IC datasheet (SH8501) | [`docs/SH_8501_A0_Data_Sheet_Preliminary_V0_0_UCS_210401_Truly_7722af3bde.pdf`](./docs/SH_8501_A0_Data_Sheet_Preliminary_V0_0_UCS_210401_Truly_7722af3bde.pdf) |
 | Init sequence (text) | [`docs/0.95AM-500亮度-代码-ok.txt`](./docs/0.95AM-500%E4%BA%AE%E5%BA%A6-%E4%BB%A3%E7%A0%81-ok.txt) |
+| Vendor SPI4 init (2026-05-15) | [`docs/0.95_SH8501A_120x240_SPI4_20260515.txt`](./docs/0.95_SH8501A_120x240_SPI4_20260515.txt) |
+| SPI4 bring-up notes | [`docs/SH8501A_SPI4_bringup_conclusion.md`](./docs/SH8501A_SPI4_bringup_conclusion.md) |
 | Adapter schematic | [`docs/AM095Q120240XZ转接板V1.0.pdf`](./docs/AM095Q120240XZ%E8%BD%AC%E6%8E%A5%E6%9D%BFV1.0.pdf) |
 
 ### Samples
 
-- [ESP32-S3 SH8501 SPI + LVGL9](./examples/s3-idf_sh8501-spi_lvgl-v9/)
+- [ESP32-S3 SH8501 SPI bring-up (LVGL9)](./examples/esp32s3-0.95-amoled-120x240-spi-sh8501-bringup/)
 
 ## Buy
 

@@ -25,3 +25,9 @@ venv/
 
 # 编译数据库（若使用 idf.py 生成且不希望入库）
 # compile_commands.json
+
+# ESP-IDF example artifacts
+examples/**/build/
+examples/**/sdkconfig.old
+examples/**/managed_components/
+examples/**/.cache/
