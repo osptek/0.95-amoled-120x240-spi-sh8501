@@ -46,8 +46,6 @@ Repo id: `0.95-amoled-120x240-spi-sh8501`
 
 <p align="center"><img alt="AM095Q120240XZ" src="./images/AM095Q120240XZ.png" width="320" /></p>
 
-**Notes:** Module.
-
 ---
 
 ## How to Switch Branches
