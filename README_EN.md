@@ -18,7 +18,6 @@
 - [About](#about)
 - [Versions](#versions)
 - [AM095Q120240XZ](#am095q120240xz)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -28,7 +27,7 @@
 
 This repository holds materials for the **0.95″ 120×240 AMOLED (SPI · SH8501)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `0.95-amoled-120x240-spi-sh8501`
 
@@ -36,26 +35,19 @@ Repo id: `0.95-amoled-120x240-spi-sh8501`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| AM095Q120240XZ | <img alt="AM095Q120240XZ" src="./images/AM095Q120240XZ.png" width="120" /> | [Details](#am095q120240xz) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| AM095Q120240XZ | <img alt="AM095Q120240XZ" src="./versions/AM095Q120240XZ/images/product.png" width="120" /> | [Summary](#am095q120240xz) | [Full docs](./versions/AM095Q120240XZ/) |
 
 ---
 
 ## AM095Q120240XZ
 
-<p align="center"><img alt="AM095Q120240XZ" src="./images/AM095Q120240XZ.png" width="320" /></p>
+<p align="center"><img alt="AM095Q120240XZ" src="./versions/AM095Q120240XZ/images/product.png" width="320" /></p>
 
 **Notes:** Bare panel.
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/AM095Q120240XZ/](./versions/AM095Q120240XZ/)
 
 ---
 
